@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'story';
+  src: url('/public/font/StoryScript-Regular.ttf') format('truetype');
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.test1{
+  font-family: 'story';
+  font-size: 4em;
+}
+.tfont{
+    font-family: 'story';
+  font-size: 3em;
+}
+html {
+  scroll-behavior: smooth;
+}
