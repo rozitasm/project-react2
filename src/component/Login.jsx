@@ -71,7 +71,8 @@ function Login() {
           <div className="flex flex-col gap-4 w-full max-w-xs">
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Username "
+              value={Admin}
               onChange={userhandler}
               className="p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5AC1F0]"
             />
