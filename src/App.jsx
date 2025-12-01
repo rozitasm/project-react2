@@ -7,7 +7,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Signup from './component/Signup.jsx'
 import Login from './component/Login.jsx'
 import Home from './component/Home.jsx'
-import ProductCat from './component/productCat.jsx'
+
 import Product from './component/Product.jsx'
 
 
@@ -16,6 +16,7 @@ import Contact from './component/Contact.jsx'
 import Profile from './component/Profile.jsx'
 import Productinfo from './component/Productinfo.jsx'
 import RequireAuth from './component/RequireAuth.jsx'
+import ProductCat from './component/productCat.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
