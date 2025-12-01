@@ -16,7 +16,8 @@ import Contact from './component/Contact.jsx'
 import Profile from './component/Profile.jsx'
 import Productinfo from './component/Productinfo.jsx'
 import RequireAuth from './component/RequireAuth.jsx'
-import ProductCat from './component/productCat.jsx'
+import ProductCat from './component/ProductCat.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
